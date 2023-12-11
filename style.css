@@ -18,7 +18,7 @@ header h1, header h2, header h3 {
 
 main {
     margin: 20px;
-    width: 60%; /* Set the width of the main content */
+    width: 35%; /* Set the width of the main content */
     margin-left: auto; /* Center the main content */
     margin-right: auto; /* Center the main content */
 }

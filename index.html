@@ -3,69 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yong-Cheng Liaw-Webpage</title>
+    <title>Yong-Cheng Liaw 廖永誠</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Yong-Cheng Liaw</h1>
+        <h1>Yong-Cheng Liaw 廖永誠</h1>
         <h2>National Yang Ming Chiao Tung University</h2>
         <h3>Institute of Artificial Intelligence Innovation</h3>
     </header>
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <img src="images/head.jpg" alt="Profile picture of Yong-Cheng Liaw">
-            <p>
-                Yong-Cheng Liaw is currently pursuing a master's degree at the Institute of Artificial Intelligence Innovation, National Yang Ming Chiao Tung University, starting from September 2023. His research has focused on the computational aspects of deep neural networks, especially in the context of non-volatile memory attributes. He has also explored the potential of the Q-learning method to enhance SSD data clustering techniques.
-            </p>
+            <div class="about-content">
+                <img src="images/head.jpg" alt="Profile picture of Yong-Cheng Liaw">
+                <p>
+                    Yong-Cheng Liaw is currently pursuing a master's degree at the Institute of Artificial Intelligence Innovation, National Yang Ming Chiao Tung University, starting from September 2023. His research focuses on the system optimization of deep neural networks, as well as research in the context of non-volatile memory attributes such as NAND Flash Memory and Skyrmion Racetrack Memory (SK-RM).
+                </p>
+            </div>
         </section>
-        <section id="publications">
-            <h2>Publications</h2>
-            <ul>          
-                <li>Yong-Cheng Liaw, Shuo-Han Chen and Yu-Pei Liang, “Reinforcement Learning-Based Read Performance Throttling to Enhance Lifetime of 3D NAND SSD,” 13th IEEE Non-Volatile Memory Systems and Applications Symposium (NVMSA), Sokcho, Korea, August 21-23, 2024.</li>
-                <li>Yong-Cheng Liaw, Shuo-Han Chen, Hsin-Yun Su, “Lowering the Number of Live-Page Copies on Solid State Drives through Trim-Assisted Space Allocation,” IEEE International SoC Conference (ISOCC), Jeju Island, Korea, Oct. 25-28, 2023.</li>
-                <li>Yu-Shiang Tsai, Shuo-Han Chen, Yong-Cheng Liaw, Cheng-Yueh Wu, “Exploring Hot/Cold Data Separation for Garbage Collection Efficiency Enhancement on OCSSDs,” IEEE International SoC Conference (ISOCC), Jeju Island, Korea, Oct. 25-28, 2023.</li>
-                <li>Yong-Cheng Liaw, Shuo-Han Chen, Yuan-Hao Chang, Yu-Pei Liang, “Sky-NN: Enabling Efficient Neural Network Data Processing with Skyrmion Racetrack Memory,” 2023 ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED 2023), Aug. 7-8, 2023, Vienna, Austria. (Top Conference)</li>
-            </ul>
-        </section>
-        <section id="academia activity">
-            <h2>Academia Activities</h2>
-            <ul>          
-                <li>Presented on Few topics of SSD at IEEE International SoC Conference (ISOCC), Jeju Island, Korea, Oct. 25-28, 2023.</li>
-            </ul>
-        </section>
-        <section id="educations">
+        <section id="education">
             <h2>Educations</h2>
             <ul>
-                <li>Master at Institute of Artificial Intelligence Innovation, National Yang Ming Chiao Tung</li>
-                <li>Bachelor at Department of Computer Scienceand Information Engineering, National Taipei University of Technology </li>
+                <li>
+                    <h3>Master at <a href="https://iais.nycu.edu.tw/en/index.html" target="_blank" class="org-link">Institute of Artificial Intelligence Innovation, National Yang Ming Chiao Tung University</a></h3>
+                    <p class="period">(2023.09 - Present)</p>
+                    <p class="description">GPA 4.2/4.3</p>
+                </li>
+                <li>
+                    <h3>Bachelor at <a href="https://csie.ntut.edu.tw/index.php?Lang=en" target="_blank" class="org-link">Department of Computer Science and Information Engineering, National Taipei University of Technology</a></h3>
+                    <p class="period">(2019.09 - 2023.06)</p>
+                    <p class="description">GPA 3.77/4</p>
+                </li>
             </ul>
         </section>
         <section id="work-experience">
             <h2>Work Experience</h2>
             <ul>
-                <li>Part-time Software Engineer at LooPick (2022.10 - 2023.06)</li>
-                <li>Learning Assistant at Academia Sinica (2021.07 - 2023.06)</li>
-                <li>Summer Intern at Academia Sinica (2022.07 - 2022.09)</li>
+                <li>
+                    <h3>Learning Research Assistant at <a href="https://www.phison.com/en/" target="_blank" class="org-link">Phison</a></h3>
+                    <p class="period">(2023.07 - Present)</p>
+                    <p class="description">As a Learning Research Assistant at Phison, I am involved in the <a href="https://www.phisonenterprise.com/pascari-aidaptiv-plus-ai-data-storage-solution/" target="_blank" class="org-link">aiDAPTIV+</a> solution, which allows customers to use SSDs as a cost-effective cache for model training. In my role, I have made several significant contributions:</p>
+                    <p class="description">1. Improved the original implementation of CPU buffer usage, reducing DRAM usage by approximately 60% through mitigating fragmentation issues. The results is depends on different model configurations.</p>
+                    <p class="description">2. Implemented a low-bit optimizer, resulting in a 50% reduction in data transfer time between SSD and DRAM.</p>
+                    <p class="description">3. Lead a team in replacing the original filesystem-based SSD I/O implementation with a manual management system for SSD data location during swap-out operations. This enhancement paves the way for future Compute-in-Storage feature implementations.</p>
+                    <p class="description">These improvements have significantly enhanced the efficiency and performance of the aiDAPTIV+ solution, making it a more competitive option for cost-effective model training using SSD caching.</p>
+                </li>
+                <li>
+                    <h3>Part-time Software Engineer at <a href="https://loopick.com.tw/" target="_blank" class="org-link">LooPick</a></h3>
+                    <p class="period">(2022.10 - 2023.06)</p>
+                    <p class="description">At LooPick, I worked on developing a web management interface and a LINE rental system for a city-wide reusable cup program in beverage shops. This role enhanced my skills in front-end and back-end development.</p>
+                </li>
+                <li>
+                    <h3>Summer Intern at <a href="https://www.iis.sinica.edu.tw/en/index.html" target="_blank" class="org-link">Institute of Information Science, Academia Sinica</a></h3>
+                    <p class="period">(2022.07 - 2022.09)</p>
+                    <p class="description">During my summer internship at Academia Sinica, I participated in research projects related to computer science and artificial intelligence. I assisted senior researchers, conducted literature reviews, and contributed to analysis for ongoing studies.</p>
+                </li>
+                <li>
+                    <h3>Learning Research Assistant at <a href="https://www.iis.sinica.edu.tw/en/index.html" target="_blank" class="org-link">Institute of Information Science, Academia Sinica</a></h3>
+                    <p class="period">(2021.07 - 2023.06)</p>
+                    <p class="description">As a Learning Research Assistant at Academia Sinica, I contributed to long-term computer science research projects. My primary focus was on improving the performance of Skyrmion Racetrack Memory (SK-RM) for deep learning applications. The results of this research were published at  <a href="https://ieeexplore.ieee.org/document/10244351" target="_blank" class="org-link">ISLPED 2023</a>.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>          
+                <li><span class="author-highlight">Yong-Cheng Liaw</span>, Shuo-Han Chen and Yu-Pei Liang, "Reinforcement Learning-Based Read Performance Throttling to Enhance Lifetime of 3D NAND SSD," 13th IEEE Non-Volatile Memory Systems and Applications Symposium (NVMSA), Sokcho, Korea, August 21-23, 2024.</li>
+                <li><span class="author-highlight">Yong-Cheng Liaw</span>, Shuo-Han Chen, Hsin-Yun Su, "Lowering the Number of Live-Page Copies on Solid State Drives through Trim-Assisted Space Allocation," IEEE International SoC Conference (ISOCC), Jeju Island, Korea, Oct. 25-28, 2023.</li>
+                <li>Yu-Shiang Tsai, Shuo-Han Chen, <span class="author-highlight">Yong-Cheng Liaw</span>, Cheng-Yueh Wu, "Exploring Hot/Cold Data Separation for Garbage Collection Efficiency Enhancement on OCSSDs," IEEE International SoC Conference (ISOCC), Jeju Island, Korea, Oct. 25-28, 2023.</li>
+                <li><span class="author-highlight">Yong-Cheng Liaw</span>, Shuo-Han Chen, Yuan-Hao Chang, Yu-Pei Liang, "Sky-NN: Enabling Efficient Neural Network Data Processing with Skyrmion Racetrack Memory," 2023 ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED 2023), Aug. 7-8, 2023, Vienna, Austria. (Top Conference)</li>
+            </ul>
+        </section>
+        <section id="academic-activities">
+            <h2>Academic Activities</h2>
+            <ul>
+                <li>Oral Presentation at the IEEE International System-on-Chip Conference (ISOCC), Jeju Island, South Korea, Oct. 25-28, 2023.</li>
             </ul>
         </section>
         <section id="skills">
             <h2>Skills</h2>
             <ul>
-                <li>C/C++</li>
                 <li>Python</li>
-                <li>Pytorch/Tensorflow</li>
+                <li>Pytorch</li>
+                <li>C/C++</li>
             </ul>
         </section>
         <section id="contact">
             <h2>Contact Me</h2>
-            <p>
-                If you have any questions or comments, please feel free to contact me.
-            </p>
+            <p>If you have any questions or comments, please feel free to contact me.</p>
             <ul>
-                <li>Email: tomhot246@gmail.com</li>
+                <li>Email: <a href="mailto:tomhot246@gmail.com">tomhot246@gmail.com</a></li>
                 <li>GitHub: <a href="https://github.com/DandinPower">DandinPower</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/yongchengliaw/">YongChengLiaw</a></li>
             </ul>
         </section>
     </main>
